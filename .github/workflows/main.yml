@@ -1,6 +1,9 @@
 on:
   push:
-    tags: on
+    branches: -master
+  
+  pull_request:
+    branches: -master
 jobs:
   build:
     name: Hello world action

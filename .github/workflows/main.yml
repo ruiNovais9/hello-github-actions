@@ -1,3 +1,6 @@
+on:
+  push:
+    tags: on
 jobs:
   build:
     name: Hello world action
